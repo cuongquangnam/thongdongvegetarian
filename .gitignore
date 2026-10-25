@@ -1,0 +1,30 @@
+# Publish only the site. The photo archives stay on this machine.
+*
+!*/
+!.gitignore
+!.vercelignore
+!vercel.json
+!.github/**
+!index.html
+!gallery.html
+!favicon.svg
+!menu.pdf
+!css/**
+!js/**
+!images/**
+
+# Keep Git from walking the source archives.
+THONG DONG ANH/
+THONG DONG ANH 2/
+THONG DONG ANH 3/
+THONG DONG ANH 4/
+Ảnh Thong Dong Vegetarian Restaurant/
+ẢNH MÓN SEN LẺ/
+THÁNG 8/
+tháng 12-mùng 1 chưa sửa/
+
+.DS_Store
+**/.DS_Store
+.vercel
+public
+.env
