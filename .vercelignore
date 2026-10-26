@@ -1,19 +1,4 @@
-# Keep the upload to the site. Same rules as .gitignore.
-*
-!*/
-!.gitignore
-!.vercelignore
-!vercel.json
-!.github/**
-!index.html
-!gallery.html
-!favicon.svg
-!menu.pdf
-!css/**
-!js/**
-!images/**
-
-# Keep the upload from walking the source archives.
+# Source photo archives stay off the deploy.
 THONG DONG ANH/
 THONG DONG ANH 2/
 THONG DONG ANH 3/
@@ -27,3 +12,4 @@ tháng 12-mùng 1 chưa sửa/
 **/.DS_Store
 .vercel
 public
+.env
